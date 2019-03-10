@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/white-waves.png");
+    background: url("images/white-waves.png");
   }
   
   * {
@@ -215,6 +215,17 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
-@media screen {
+@media screen and (max-width: 980px) {
    
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+  #masthead {
+    position: static;
+  }
+  
 }
